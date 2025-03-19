@@ -30,32 +30,55 @@ subnet-windows → CIDR 10.0.2.0/24
 - Creo los grupos de seguridad
 
 Para que las webs fueran accesibles desde cualquier lugar, configuré los Security Groups con estas reglas:
+
 Reglas de entrada (INBOUND)
+
 •	HTTP (80) → Abierto para todo 0.0.0.0/0
+
 •	Vite (5173) → Abierto para todo 0.0.0.0/0
+
 •	SSH (22) → Solo desde mi IP pública (Linux)
+
 •	RDP (3389) → Solo desde mi IP pública (Windows)
+
 Reglas de salida (OUTBOUND)
+
 •	Todo el tráfico permitido 0.0.0.0/0
 
 ![Texto alternativo](./img/Picture9.png)
 
 Luego levanté dos máquinas virtuales en AWS:
-1.	Instancia Windows
+
+Instancia Windows
+   
 SO: Windows Server 2022
+
 Tipo: t3.medium
+
 Subred: subnet-windows
+
 Reglas de Seguridad: 
+
   HTTP (80)
+  
   Vite (5173)
+  
   RDP (3389) 
-2.	Instancia Linux (Ubuntu 22.04)
+  
+Instancia Linux (Ubuntu 22.04)
+
 SO: Ubuntu 22.04
+
 IP pública asignada
+
 Subred: subnet-linux
+
 Reglas de Seguridad: 
+
   HTTP (80)
+
   Vite (5173)
+  
   SSH (22) (para conectarme por terminal)
 
 ![Texto alternativo](./img/Picture10.png)
