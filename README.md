@@ -2,7 +2,7 @@
 
 He creado una VPC con dos instancias EC2 y he desplegado una página web con Vite en ambas máquinas.
 
-- Inicio sesión en AWS
+## Inicio sesión en AWS
 
 ![Texto alternativo](./img/Picture1.png)
 
@@ -21,13 +21,13 @@ subnet-windows → CIDR 10.0.2.0/24
 
 ![Texto alternativo](./img/Picture6.png)
 
-- Modifico la tabla de rutas para permitir tráfico a Internet
+## Modifico la tabla de rutas para permitir tráfico a Internet
 
 ![Texto alternativo](./img/Picture7.png)
 
 ![Texto alternativo](./img/Picture8.png)
 
-- Creo los grupos de seguridad
+## Creo los grupos de seguridad
 
 Para que las webs fueran accesibles desde cualquier lugar, configuré los Security Groups con estas reglas:
 
@@ -45,9 +45,11 @@ Reglas de salida (OUTBOUND)
 
 •	Todo el tráfico permitido 0.0.0.0/0
 
+
 ![Texto alternativo](./img/Picture9.png)
 
-Luego levanté dos máquinas virtuales en AWS:
+
+## Luego levanté dos máquinas virtuales en AWS:
 
 Instancia Windows
    
@@ -80,12 +82,14 @@ Reglas de Seguridad:
   Vite (5173)
   
   SSH (22) (para conectarme por terminal)
+  
 
 ![Texto alternativo](./img/Picture10.png)
 
 ![Texto alternativo](./img/Picture11.png)
 
-- Instalación y despliegue de Web
+
+## Instalación y despliegue de Web
 Para poder desplegar una web, en ambas instancias instalé Node.js y Vite, que sirven para desarrollar y correr aplicaciones web.
 En cada máquina creé un proyecto web con Vite, que genera una estructura básica para una web en JavaScript.
 
@@ -99,18 +103,22 @@ En cada máquina creé un proyecto web con Vite, que genera una estructura bási
 
 ![Texto alternativo](./img/Picture16.png)
 
-- Conectarme a las instancias
+
+##Conectarme a las instancias
+
 
 Windows:
 
 ![Texto alternativo](./img/Picture17.png)
 
+
 Linux:
+
 ![Texto alternativo](./img/Picture18.png)
 
 ![Texto alternativo](./img/Picture19.png)
 
-- Pull request a un compañero
+## Pull request a un compañero
 
 ![Texto alternativo](./img/Picture20.png)
 
