@@ -104,7 +104,7 @@ En cada máquina creé un proyecto web con Vite, que genera una estructura bási
 ![Texto alternativo](./img/Picture16.png)
 
 
-##Conectarme a las instancias
+## Conectarme a las instancias
 
 
 Windows:
