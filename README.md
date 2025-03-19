@@ -57,3 +57,31 @@ Reglas de Seguridad:
   HTTP (80)
   Vite (5173)
   SSH (22) (para conectarme por terminal)
+
+![Texto alternativo](./img/Picture10.png)
+
+![Texto alternativo](./img/Picture11.png)
+
+- Instalación y despliegue de Web
+Para poder desplegar una web, en ambas instancias instalé Node.js y Vite, que sirven para desarrollar y correr aplicaciones web.
+En cada máquina creé un proyecto web con Vite, que genera una estructura básica para una web en JavaScript.
+
+![Texto alternativo](./img/Picture12.png)
+
+![Texto alternativo](./img/Picture13.png)
+
+![Texto alternativo](./img/Picture14.png)
+
+![Texto alternativo](./img/Picture15.png)
+
+![Texto alternativo](./img/Picture16.png)
+
+- Conectarme a las instancias
+Windows:
+
+![Texto alternativo](./img/Picture17.png)
+
+Linux:
+![Texto alternativo](./img/Picture18.png)
+
+![Texto alternativo](./img/Picture19.png)
