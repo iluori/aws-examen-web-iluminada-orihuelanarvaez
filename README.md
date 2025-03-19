@@ -109,3 +109,13 @@ Linux:
 ![Texto alternativo](./img/Picture18.png)
 
 ![Texto alternativo](./img/Picture19.png)
+
+- Pull request a un compañero
+
+![Texto alternativo](./img/Picture20.png)
+
+![Texto alternativo](./img/Picture21.png)
+
+![Texto alternativo](./img/Picture22.png)
+
+![Texto alternativo](./img/Picture23.png)
